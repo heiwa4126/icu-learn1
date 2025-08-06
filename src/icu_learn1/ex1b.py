@@ -2,7 +2,7 @@
 ja-JP-u-kf-upper-ks-level1で比較する
 """
 
-from icu_learn1.u_kf_upper import collator
+from icu_learn1.jp_hira_kana import collator
 
 test_pairs = (
     ("ひらがな", "ヒラガナ"),

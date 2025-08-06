@@ -1,5 +1,6 @@
 """
-PyICUを使用して日本語文字列を u-kf-upper (ひらがなカタカナ区別なし)で比較する
+PyICUのAPIを使用して
+u-kf-upper (ひらがなカタカナ区別なし)相当のcollatorを作る
 """
 
 import icu
