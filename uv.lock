@@ -1,0 +1,20 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "icu-learn1"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "pyicu" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pyicu", specifier = ">=2.15.2" }]
+
+[[package]]
+name = "pyicu"
+version = "2.15.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/9f/57/9db810ab75133a1c87ac2e327fb59199d78d233f575fbb63bfd3492b769c/pyicu-2.15.2.tar.gz", hash = "sha256:561e77eedff17cec6839f26211f7a5ce3c071b776e8a0ec9d1207f46cbce598f", size = 267721, upload-time = "2025-04-22T18:54:45.364Z" }
