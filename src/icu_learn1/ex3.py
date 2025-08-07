@@ -51,8 +51,9 @@ for word in japanese_words:
 # c1 = create_collator("ja-u-ks-level2-kf-upper")
 # c1 = create_collator("ja-u-co-unihan-kf-upper-ka-shifted")
 # c1 = create_collator("ja-JP-ks-level1")
-c1 = create_collator("C")
+# c1 = create_collator("C")
 # c1 = create_collator("u-kf-lower")
+c1 = create_collator("js-u-ks-level4")
 sorted_words = sorted(japanese_words, key=c1.getSortKey)
 
 print("\nソート後:")

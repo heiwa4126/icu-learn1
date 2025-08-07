@@ -6,6 +6,8 @@ from icu_learn1.ex3b import create_collator
 japanese_words = [
     "ひらがな",
     "ヒラガナ",
+    "ひらかな",
+    "ヒラカナ",
     "カタカナ",
     "かたかな",
     "さくら",
@@ -20,7 +22,7 @@ japanese_words = [
     "tokyo",
 ]
 
-collator = create_collator("C")
+collator = create_collator("js-u-ks-level4")
 
 # 複数回ソートして結果が同じかチェック
 results = []
