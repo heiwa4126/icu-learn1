@@ -7,6 +7,8 @@ ex1 = "${RUN_BASE}/ex1.py"
 ex2 = "${RUN_BASE}/ex2.py"
 ex1b = "${RUN_BASE}/ex1b.py"
 ex2b = "${RUN_BASE}/ex2b.py"
+ex3 = "${RUN_BASE}/ex3.py"
+ex3b = "${RUN_BASE}/ex3b.py"
 
 # ======== utils
 format.shell = """
